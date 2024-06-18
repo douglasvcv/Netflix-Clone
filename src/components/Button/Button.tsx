@@ -39,6 +39,7 @@ const Button = ({
     return customClassName ? ` ${customClassName}` : ''
   }
 
+  
   return (
     <button
       className={`n-button${getIconClassName()}${getLabelClassName()}${getCustomClassName()} ${getPrimaryClassName()}`}
